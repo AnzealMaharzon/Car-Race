@@ -1,0 +1,5 @@
+f=open("jvayeni.txt",'r+')
+f.seek(0)
+d=f.write("Rizilcha po")
+f.close()
+print(d)
